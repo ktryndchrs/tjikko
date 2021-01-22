@@ -1,7 +1,6 @@
 <?php
-
-  $alt     = $page->cover()->alt();
-  $caption = $page->cover()->caption();
+  $alt     = $page->cover()->toFile()->alt();
+  $caption = $page->cover()->toFile()->caption();
   $crop    = $page->cover()->crop()->isTrue();
   $link    = $page->cover()->link();
   $ratio   = $page->cover()->ratio()->or('auto');
@@ -13,7 +12,6 @@
       $alt = $alt ?? $image->alt();
       $src = $image->url();
   }
-
 ?>
 
 <?php snippet('header') ?>

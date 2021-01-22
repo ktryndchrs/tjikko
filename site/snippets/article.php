@@ -1,19 +1,17 @@
 <?php
+  $alt     = $article->cover()->toFile()->alt();
+  $caption = $article->cover()->toFile()->caption();
+  $crop    = $article->cover()->crop()->isTrue();
+  $link    = $article->cover()->link();
+  $ratio   = $article->cover()->ratio()->or('auto');
+  $src     = null;
 
-$alt     = $article->cover()->alt();
-$caption = $article->cover()->caption();
-$crop    = $article->cover()->crop()->isTrue();
-$link    = $article->cover()->link();
-$ratio   = $article->cover()->ratio()->or('auto');
-$src     = null;
-
-if ($article->cover()->location() == 'web') {
-    $src = $article->cover()->src();
-} elseif ($image = $article->cover()->image()->toFile()) {
-    $alt = $alt ?? $image->alt();
-    $src = $image->url();
-}
-
+  if ($article->cover()->location() == 'web') {
+      $src = $article->cover()->src();
+  } elseif ($image = $article->cover()->image()->toFile()) {
+      $alt = $alt ?? $image->alt();
+      $src = $image->url();
+  }
 ?>
 
 <article class="">
