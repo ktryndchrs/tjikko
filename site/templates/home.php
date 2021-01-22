@@ -27,6 +27,7 @@
           lg:flex-row lg:space-x-2 lg:items-center">
           <?php if ($user->avatar()): ?>
           <img src="<?= $user->avatar()->url() ?>" loading="lazy"
+              alt="<?= $user->firstname() ." ". $user->lasttname(); ?>"
               class="h-16 w-16
                       xs:h-20 xs:w-20 
                       sm:h-18 sm:w-18 rounded-full"/>
@@ -40,21 +41,21 @@
             <ul class="flex space-x-1 -m-2  items-center mt-2 text-gray-600">
                 <?php if ($user->linkedin()->isNotEmpty()): ?>
                   <li>
-                    <a href="<?= $user->linkedin() ?>" target="_blank" alt="Linkedin" class="block box-content h-5 w-5 p-1.5 md:p-1">
+                    <a href="<?= $user->linkedin() ?>" target="_blank" aria-label="Linkedin" class="block box-content h-5 w-5 p-1.5 md:p-1">
                       <?= svg('assets/images/linkedin.svg') ?>
                     </a>
                   </li>
                 <?php endif; ?>
                 <?php if ($user->twitter()->isNotEmpty()): ?>
                   <li>
-                    <a href="<?= $user->twitter() ?>" target="_blank" alt="Twitter" class="block box-content h-5 w-5 p-1.5 md:p-1">
+                    <a href="<?= $user->twitter() ?>" target="_blank" aria-label="Twitter" class="block box-content h-5 w-5 p-1.5 md:p-1">
                       <?= svg('assets/images/twitter.svg') ?>
                     </a>
                   </li>
                 <?php endif; ?>
                 <?php if ($user->angelist()->isNotEmpty()): ?>
                   <li>
-                    <a href="<?= $user->angelist() ?>" target="_blank" alt="Angel List" class="block box-content h-5 w-5 p-1.5 md:p-1">
+                    <a href="<?= $user->angelist() ?>" target="_blank" aria-label="Angel List" class="block box-content h-5 w-5 p-1.5 md:p-1">
                       <?= svg('assets/images/angel.svg') ?>
                     </a
                   </li>

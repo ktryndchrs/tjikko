@@ -1,11 +1,31 @@
+<?php
+
+$alt     = $article->cover()->alt();
+$caption = $article->cover()->caption();
+$crop    = $article->cover()->crop()->isTrue();
+$link    = $article->cover()->link();
+$ratio   = $article->cover()->ratio()->or('auto');
+$src     = null;
+
+if ($article->cover()->location() == 'web') {
+    $src = $article->cover()->src();
+} elseif ($image = $article->cover()->image()->toFile()) {
+    $alt = $alt ?? $image->alt();
+    $src = $image->url();
+}
+
+?>
+
 <article class="">
   <a href="<?= $article->url() ?>">
     <header>
-      <figure class="w-full overflow-hidden">
-        <img 
-          class="object-cover w-full" loading="lazy"
-          src=<?= ($cover = $article->cover()->toFile()) ? $cover->url() : null ?>>
-      </figure>
+      <?php if ($src): ?>
+        <figure class="w-full overflow-hidden">
+          <img 
+            class="object-cover w-full" loading="lazy"
+            src="<?= $src ?>" alt="<?= $alt ?>">
+        </figure>
+      <?php endif ?>
       <h2 class="text-2xl mt-2"><?= $article->title() ?></h2>
     </header>
     <?php if (($excerpt ?? true) !== false): ?>

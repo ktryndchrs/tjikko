@@ -1,3 +1,21 @@
+<?php
+
+  $alt     = $page->cover()->alt();
+  $caption = $page->cover()->caption();
+  $crop    = $page->cover()->crop()->isTrue();
+  $link    = $page->cover()->link();
+  $ratio   = $page->cover()->ratio()->or('auto');
+  $src     = null;
+
+  if ($page->cover()->location() == 'web') {
+      $src = $page->cover()->src();
+  } elseif ($image = $page->cover()->image()->toFile()) {
+      $alt = $alt ?? $image->alt();
+      $src = $image->url();
+  }
+
+?>
+
 <?php snippet('header') ?>
   
   <header class="article article-header mt-8 xxs:mt-5 xs:mt-4 sm:mt-0">
@@ -12,8 +30,8 @@
     </div>
     <div class="outside-container overflow-hidden w-full">
       <img 
-        class="object-cover w-full h-1/3vh sm:h-1/2vh" loading="lazy"
-        src=<?= ($cover = $page->cover()->toFile()) ? $cover->url() : null ?>>
+          class="object-cover w-full h-1/3vh sm:h-1/2vh" loading="lazy"
+          src="<?= $src ?>" alt="<?= $alt ?>">
     </div>
   </header>
 
