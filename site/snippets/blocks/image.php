@@ -18,15 +18,17 @@ if ($block->location() == 'web') {
 <?php if ($src): ?>
 <figure<?= attr(['data-ratio' => $ratio, 'data-crop' => $crop], ' ') ?>>
   <?php if ($link->isNotEmpty()): ?>
-  <a href="<?= $link->toUrl() ?>">
-    <img src="<?= $src ?>" alt="<?= $alt ?>">
+  <a class="block overflow-hidden" href="<?= $link->toUrl() ?>">
+    <img class="object-cover w-full" src="<?= $src ?>" alt="<?= $alt ?>">
   </a>
   <?php else: ?>
-  <img src="<?= $src ?>" alt="<?= $alt ?>">
+  <div class="overflow-hidden">
+    <img class="object-cover w-full" src="<?= $src ?>" alt="<?= $alt ?>">
+  </div>
   <?php endif ?>
 
   <?php if ($caption->isNotEmpty()): ?>
-  <figcaption>
+  <figcaption class="inner-container text-sm mt-2 text-gray-500 font-normal">
     <?= $caption ?>
   </figcaption>
   <?php endif ?>

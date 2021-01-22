@@ -166,6 +166,10 @@ strong {
     @apply text-primary-500 underline;
     font-weight: 450;
 
+    figcaption &{
+      @apply font-normal;
+    }
+
     &:hover{
       @apply text-primary-700;
     }
