@@ -17,7 +17,7 @@
     </div>
   </header>
 
-  <main class="sm:flex sm:items-center article article-body">
+  <main class="flex justify-center article article-body">
     <div class="app-container">
       <?= $page->text()->toBlocks() ?>
     </div>
