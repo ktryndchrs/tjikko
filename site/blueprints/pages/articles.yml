@@ -2,7 +2,7 @@ title: Articles
 icon: 📰
 
 columns:
-  - width: 1/2
+  - width: 1/3
     sections:
       drafts:
         type: pages
@@ -17,10 +17,20 @@ columns:
         headline: En révision
         status: unlisted
 
-  - width: 1/2
+  - width: 1/3
     sections:
       listed:
         type: pages
         extends: sections/articles
         headline: Publiés
         status: listed
+
+  - width: 1/3
+    sections:
+      content:
+        type: fields
+        fields:
+          idees:
+            label: Idées d'articles
+            type: list
+            translate: false
