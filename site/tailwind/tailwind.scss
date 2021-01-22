@@ -1,0 +1,204 @@
+@tailwind base;
+@tailwind components;
+
+/* ---- custom css and @apply components go here ---- */
+
+/*
+  Font Import
+*/
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/inter.woff2') format('woff2');
+  font-weight: 100 900;
+  font-display: fallback;
+}
+
+/*
+  Main Sections
+*/
+body {
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', sans-serif;
+  @apply font-normal text-gray-800 bg-secondary-50 flex flex-col min-h-screen;
+}
+
+main{
+  @apply flex-grow break-words;
+}
+
+/*
+  Pages containers
+*/
+.app-container {
+  @apply sm:container xl:max-w-screen-xl p-2 xxs:p-4 sm:p-6;
+}
+
+.outside-container {
+  @apply sm:max-w-screen-xl xl:max-w-screen-2xl mx-auto;
+}
+
+.inner-container {
+  @apply max-w-screen-md mx-auto;
+}
+
+/* 
+  Styles de textes
+*/
+h1 {
+  @apply font-normal text-2xl xxs:text-3xl xs:font-light sm:text-5xl tracking-tight leading-none mt-0;
+  /* mt-6 text-4xl md:text-5xl font-bold; */
+}
+
+h2 {
+  @apply mt-6 text-3xl font-semibold tracking-tight;
+}
+h3 {
+  @apply mt-6 text-2xl font-medium tracking-tight;
+}
+h4 {
+  @apply mt-6 text-xl;
+}
+h5 {
+  @apply mt-6 text-lg;
+}
+h6 {
+  @apply text-base uppercase;
+}
+
+p {
+  @apply my-3 leading-loose text-lg font-light;
+}
+
+em {
+  @apply italic;
+}
+
+strong {
+  @apply font-medium;
+}
+
+/*
+  Boutons & Navigation
+*/
+.btn,
+.nav-item {
+  @apply inline-flex text-sm font-medium uppercase tracking-wide transition-all;
+}
+
+/* Boutons */
+.btn {
+  @apply rounded-full px-4 py-2;
+}
+
+.btn-small {
+  @apply px-3 py-1;
+}
+
+.btn-primary {
+  @apply bg-primary-400  text-secondary-200 hover:bg-primary-500;
+}
+
+.btn-secondary {
+  @apply bg-secondary-300  text-primary-700 hover:bg-secondary-400;
+}
+
+.btn-tertiary,
+.nav-item {
+  @apply text-primary-400 hover:text-primary-800;
+}
+
+/* Navigation */
+.nav-item{
+  @apply py-1 border-primary-400;
+}
+
+.nav-item:hover,
+.nav-item.is-active {
+  @apply border-b-2 ;
+}
+
+.nav-item:hover {
+  @apply border-primary-800;
+}
+
+/*
+  Formatage des articles
+*/
+.article-body {
+  
+  h1, h2, h3, h4, h5, h6,
+  p, ul, ol,
+  code, kbd, samp, pre {
+    /* @include .inner-container; */
+    @apply sm:max-w-screen-md sm:mx-auto;
+  }  
+
+  figure {
+    @apply sm:max-w-screen-lg sm:mx-auto my-8;
+  }
+
+  h2 {
+    @apply mt-16 pb-4 border-b-1 border-gray-300;
+  }
+
+  h3 {
+    @apply mt-10;
+  }
+
+  ol, ul{
+    @apply my-6 list-outside;
+    li{
+      @apply my-3 ml-4;
+    }
+    p{
+      display: inline;
+    }
+  }
+  
+  ul{
+    @apply list-disc;
+  }
+  
+  ol{
+    @apply list-decimal;
+  }
+
+  a{
+    @apply text-primary-500 underline;
+    font-weight: 450;
+
+    &:hover{
+      @apply text-primary-700;
+    }
+
+    &:visited {
+      @apply text-secondary-800;
+    }
+
+    &:visited:hover {
+      @apply text-secondary-900;
+    }
+  }
+}
+
+/*
+  BadgeWeb Carbon
+*/
+#wcb, #wcb_2, #wcb_a, #wcb_g{
+  font-family: inherit !important;
+  font-size: inherit   !important;
+  text-align: inherit  !important;
+}
+
+#wcb_g, #wcb_a{
+  @apply border-primary-500 !important;
+}
+
+#wcb_g, #wcb_2{
+  @apply text-primary-500 !important;
+}
+
+#wcb_a{
+  @apply bg-primary-500 text-secondary-50  !important;
+}
+
+@tailwind utilities;

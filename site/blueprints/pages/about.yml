@@ -1,0 +1,63 @@
+# Each page blueprint must have a title, the title may be different from the file name
+title: About us
+
+icon: ☎️
+
+#status:
+#  draft: true
+#  listed: true
+
+#options:
+#  changeSlug: false
+#  delete: false
+
+options:
+  url: false
+  status: false
+  delete: false
+
+columns:
+  - width: 1/2
+    fields:
+      text:
+        label: Text
+        type: textarea
+        size: large
+
+  - width: 1/2
+    fields:
+      address:
+        label: Address
+        type: textarea
+      email:
+        label: Email
+        type: email
+      phone:
+        label: Phone
+        type: tel
+      footerL:
+        label: Footer left
+        type: textarea
+        buttons: 
+          - bold
+          - italic
+          - link
+      footerR:
+        label: Footer right
+        type: textarea
+        buttons: 
+          - bold
+          - italic
+          - link
+      social:
+        label: On the web
+        type: structure
+        fields:
+          platform:
+            label: Platform
+            type: text
+            width: 1/2
+          url:
+            label: URL
+            type: url
+            width: 1/2

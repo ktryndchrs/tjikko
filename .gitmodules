@@ -1,0 +1,12 @@
+[submodule "kirby"]
+	path = kirby
+	url = https://github.com/getkirby/kirby.git
+[submodule "site/plugins/editor"]
+	path = site/plugins/editor
+	url = https://github.com/getkirby/editor.git
+[submodule "site/plugins/k3-image-clip"]
+	path = site/plugins/k3-image-clip
+	url = https://github.com/mullema/k3-image-clip.git
+[submodule "site/plugins/kirby-meta-tags"]
+	path = site/plugins/kirby-meta-tags
+	url = https://github.com/pedroborges/kirby-meta-tags.git

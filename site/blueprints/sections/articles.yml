@@ -1,0 +1,12 @@
+type: pages
+headline: Articles
+parent: kirby.page("articles")
+size: small
+layout: list
+template: article
+status: draft
+empty: Aucun articles en cours
+image:
+  query: page.cover
+  cover: true
+  ratio: 16/9

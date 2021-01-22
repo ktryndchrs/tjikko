@@ -1,0 +1,29 @@
+{
+  "name": "tjikko",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss site/tailwind/tailwind.scss -o assets/css/style.css",
+    "watch": "postcss site/tailwind/tailwind.scss -o assets/css/style.css --watch",
+    "prod": "cross-env NODE_ENV=production postcss site/tailwind/tailwind.scss -o assets/css/style.css",
+    "sync": "browser-sync start --proxy 'dev.tjikko.studio' --files 'assets/css/style.css, assets/images/*.svg, site/snippets/*.php, site/templates/*.php, content/*/*.txt, content/*/*/*.txt, content/*/*/*/*.txt, content/*/*/*/*/*.txt'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^3.1.3",
+    "autoprefixer": "^10.1.0",
+    "cssnano": "^4.1.10",
+    "postcss-cli": "^8.3.1",
+    "postcss-nested": "^5.0.3",
+    "postcss-nesting": "^7.0.1",
+    "tailwindcss": "^2.0.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "cross-env": "^7.0.3",
+    "tailwindcss-blend-mode": "^1.0.0"
+  }
+}

@@ -1,0 +1,49 @@
+on:
+  push:
+    branches:    
+      - master
+      
+name: Build and Publish
+jobs:
+  FTP-Deploy-Action:
+    name: FTP-Deploy-Action
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    
+    - name: Use Node.js 12.x
+      uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+        
+    - name: Build Project
+      run: |
+        npm install
+        npm run prod --if-present
+        
+    - name: List output files
+      run: ls
+      
+    - name: FTP Deploy
+      uses: SamKirkland/FTP-Deploy-Action@4.0.0
+      with:
+        server: ${{ secrets.FTP_SERVER }}
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        server-dir: public_html/
+        METHOD: ftp
+        PORT: 21
+        exclude: .git*
+          - .git*/**
+          -  **/.git*/**
+          - node_modules/
+          - node_modules/**
+          - node_modules/**/* 
+          - content/**
+          - content/**/*
+          - composer.json
+          - README.md 
+          - package-lock.json 
+          - package.json
+          - postcss.config.js 
+          - tailwind.config.js

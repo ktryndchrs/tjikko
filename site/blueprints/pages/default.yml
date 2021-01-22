@@ -1,0 +1,42 @@
+title: Default Page
+
+#status:
+#  draft: true
+#  listed: true
+
+#options:
+#  changeSlug: false
+#  delete: false
+
+# options:
+#   url: false
+#   status: false
+#   delete: false
+
+tabs:
+  content:
+    icon: text
+    label: Content
+    columns:
+      - width: 2/3
+        fields:  
+          text:
+            type: blocks
+            fieldsets:
+              - heading
+              - text
+              - list
+              - image
+              - gallery
+              - video
+              - code
+              - markdown
+              - button
+
+      - width: 1/3
+        fields:
+          gallery:
+            type: files
+            extends: sections/gallery
+            
+  seotab: seo

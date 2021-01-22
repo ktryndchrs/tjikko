@@ -1,0 +1,26 @@
+title: Articles
+icon: 📰
+
+columns:
+  - width: 1/2
+    sections:
+      drafts:
+        type: pages
+        template: article
+        extends: sections/articles
+        headline: En cours
+        status: draft
+
+      unlisted:
+        type: pages
+        extends: sections/articles
+        headline: En révision
+        status: unlisted
+
+  - width: 1/2
+    sections:
+      listed:
+        type: pages
+        extends: sections/articles
+        headline: Publiés
+        status: listed

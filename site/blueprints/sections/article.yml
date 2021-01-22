@@ -1,0 +1,4 @@
+headline: Articles
+info: "{{ page.date.toDate('d.m.Y') }}"
+empty: No articles yet
+sortBy: date desc

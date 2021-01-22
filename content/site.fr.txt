@@ -1,0 +1,139 @@
+Title: Tjikko
+
+----
+
+Meta-title: 
+
+----
+
+Meta-description: Tjikko réalise des projets numériques responsables en priorisant ceux qui auront un impact positif sur l’environnement et la société.
+
+----
+
+Meta-keywords: ui, ux, environnement, design numérique, sobriété numérique, design d'interface, recherche et développement, science des données, intelligence artificielle, gestion de projet, développement des affaires, développement
+
+----
+
+Meta-canonical-url: 
+
+----
+
+Meta-author: 
+
+----
+
+Meta-image:
+
+- tjikko-twitter-post@2x.png
+
+----
+
+Meta-phone-number: (514) 463-0833
+
+----
+
+Og-title: Tjikko
+
+----
+
+Og-description: Tjikko réalise des projets numériques responsables en priorisant ceux qui auront un impact positif sur l’environnement et la société.
+
+----
+
+Og-image:
+
+- tjikko-facebook-post@2x.png
+
+----
+
+Og-site-name: tjikko.studio
+
+----
+
+Og-url: https://tjikko.studio
+
+----
+
+Og-audio: 
+
+----
+
+Og-video: 
+
+----
+
+Og-determiner: 
+
+----
+
+Og-type: website
+
+----
+
+Og-type-article-published-time: 
+
+----
+
+Og-type-article-modified-time: 
+
+----
+
+Og-type-article-expiration-time: 
+
+----
+
+Og-type-article-author: 
+
+----
+
+Og-type-article-section: 
+
+----
+
+Og-type-article-tag: 
+
+----
+
+Twitter-title: Tjikko
+
+----
+
+Twitter-description: Tjikko réalise des projets numériques responsables en priorisant ceux qui auront un impact positif sur l’environnement et la société.
+
+----
+
+Twitter-image:
+
+- tjikko-twitter-post@2x.png
+
+----
+
+Twitter-card-type: summary_large_image
+
+----
+
+Twitter-site: TjikkoStudio
+
+----
+
+Twitter-creator: 
+
+----
+
+Robots-noindex: default
+
+----
+
+Robots-nofollow: default
+
+----
+
+Robots-noarchive: default
+
+----
+
+Robots-noimageindex: default
+
+----
+
+Robots-nosnippet: default

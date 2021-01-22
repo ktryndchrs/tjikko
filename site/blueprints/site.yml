@@ -1,0 +1,38 @@
+title: Site
+
+tabs:
+  content:
+    icon: text
+    label: Content
+    columns:
+      - width: 1/2
+        sections:
+          draft:
+            extends: sections/articles
+            headline: Articles en cours
+            status: draft
+          revision:
+            extends: sections/articles
+            headline: Articles en révision
+            status: unlisted
+          published:
+            extends: sections/articles
+            headline: Articles publiés
+            status: listed
+
+      - width: 1/2
+        sections:
+          site:
+            type: pages
+            create: default
+            templates:
+              - home
+              - about
+              - users
+          pages:
+            headline: Pages
+            type: pages
+            status: draft
+            templates: default
+
+  seotab: seo

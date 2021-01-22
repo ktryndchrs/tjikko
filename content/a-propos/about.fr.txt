@@ -1,0 +1,36 @@
+Title: À propos de Tjikko
+
+----
+
+Text: 
+
+----
+
+Address: 
+
+----
+
+Email: contact@tjikko.studio
+
+----
+
+Phone: (514) 463-0833
+
+----
+
+Footerl:
+
+Bâti avec (link: https://getkirby.com text: Kirby target: blank) & (link: https://tailwindcss.com text: Tailwindcss target: blank)
+(link: https://github.com/ktryndchrs/tjikko text: Code source du site target: blank)
+
+----
+
+Footerr: Site éco-conçu à Mtl (Poids moyen/p: 75kb)
+
+----
+
+Social: 
+
+----
+
+Footer: 

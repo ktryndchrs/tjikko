@@ -1,0 +1,54 @@
+title: Home
+
+icon: 🏠
+
+#status:
+#  draft: true
+#  listed: true
+
+#options:
+#  changeSlug: false
+#  delete: false
+
+options:
+  url: false
+  status: false
+  delete: false
+
+tabs:
+  content:
+    icon: text
+    label: Content
+    columns:
+      - width: 2/3
+        fields:  
+          text:
+            type: blocks
+            fieldsets:
+              - heading
+              - text
+              - list
+              - image
+              - gallery
+              - video
+              - code
+              - markdown
+              - button
+
+      - width: 1/3
+        fields:
+          headline:
+            label: Name
+            type: text 
+          subtitle:
+            type: textarea
+            size: small
+            buttons: false   
+          line:
+            type: line
+          team:
+            label: Team
+            type: users
+            translate: false
+
+  seotab: seo

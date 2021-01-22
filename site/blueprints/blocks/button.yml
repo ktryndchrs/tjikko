@@ -1,0 +1,16 @@
+name: Button
+icon: bolt
+tabs:
+  content:
+    fields:
+      link:
+        type: url
+      text:
+        type: text
+      style:
+        type: select
+        default: primary
+        options:
+          primary: Primaire
+          secondary: Secondaire
+          tertiary: Tertiaire
