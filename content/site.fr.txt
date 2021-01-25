@@ -2,15 +2,15 @@ Title: Tjikko
 
 ----
 
-Meta-title: 
+Meta-title: Tjikko Studio
 
 ----
 
-Meta-description: Tjikko réalise des projets numériques responsables en priorisant ceux qui auront un impact positif sur l’environnement et la société.
+Meta-description: Nous réalisons des projets numériques responsables en priorisant ceux qui auront un impact positif sur l’environnement et la société.
 
 ----
 
-Meta-keywords: ui, ux, environnement, design numérique, sobriété numérique, design d'interface, recherche et développement, science des données, intelligence artificielle, gestion de projet, développement des affaires, développement
+Meta-keywords: Tjikko Studio, Tjikko, Studio, ui, ux, environnement, design numérique, sobriété numérique, design d'interface, recherche et développement, science des données, intelligence artificielle, gestion de projet, développement des affaires, développement
 
 ----
 
@@ -32,11 +32,11 @@ Meta-phone-number: (514) 463-0833
 
 ----
 
-Og-title: Tjikko
+Og-title: Tjikko Studio
 
 ----
 
-Og-description: Tjikko réalise des projets numériques responsables en priorisant ceux qui auront un impact positif sur l’environnement et la société.
+Og-description: Nous réalisons des projets numériques responsables en priorisant ceux qui auront un impact positif sur l’environnement et la société.
 
 ----
 
@@ -94,11 +94,11 @@ Og-type-article-tag:
 
 ----
 
-Twitter-title: Tjikko
+Twitter-title: Tjikko Studio
 
 ----
 
-Twitter-description: Tjikko réalise des projets numériques responsables en priorisant ceux qui auront un impact positif sur l’environnement et la société.
+Twitter-description: Nous réalisons des projets numériques responsables en priorisant ceux qui auront un impact positif sur l’environnement et la société.
 
 ----
 
@@ -120,20 +120,20 @@ Twitter-creator:
 
 ----
 
-Robots-noindex: default
+Robots-noindex: disabled
 
 ----
 
-Robots-nofollow: default
+Robots-nofollow: disabled
 
 ----
 
-Robots-noarchive: default
+Robots-noarchive: enabled
 
 ----
 
-Robots-noimageindex: default
+Robots-noimageindex: disabled
 
 ----
 
-Robots-nosnippet: default
+Robots-nosnippet: disabled

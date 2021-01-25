@@ -7,3 +7,26 @@ Slug: about
 ----
 
 Text: 
+
+----
+
+Address: 
+
+----
+
+Email: contact@tjikko.studio
+
+----
+
+Phone: (514) 463-0833
+
+----
+
+Footer:
+
+Site éco-conçu à Mtl (Poids moyen/p: 75kb)
+Bâti avec (link: https://getkirby.com text: Kirby target: blank) & (link: https://tailwindcss.com text: Tailwindcss target: blank) / (link: https://github.com/ktryndchrs/tjikko text: Code source du site target: blank)
+
+----
+
+Social: 

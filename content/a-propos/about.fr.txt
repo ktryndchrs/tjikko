@@ -25,7 +25,7 @@ Bâti avec (link: https://getkirby.com text: Kirby target: blank) & (link: https
 
 ----
 
-Footerr: Site éco-conçu à Mtl (Poids moyen/p: 75kb)
+Footerr: Éco-conçu à Montréal (Poids moyen/p: 75kb)
 
 ----
 
@@ -33,4 +33,7 @@ Social:
 
 ----
 
-Footer: 
+Footer:
+
+Site éco-conçu à Montréal (Poids moyen/pages: 75kb)
+Propulsé par (link: https://getkirby.com text: Kirby target: blank) & (link: https://tailwindcss.com text: Tailwindcss target: blank) / (link: https://github.com/ktryndchrs/tjikko text: Code source du site target: blank)
