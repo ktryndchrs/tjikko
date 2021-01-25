@@ -18,7 +18,9 @@ return function ($page) {
      * More about collections:
      * http://getkirby.test/docs/guide/templates/collections
      */
-    $articles = collection('articles');
+    $articles = collection('articles')->filter(function ($page) {
+        return $page->content()->visibility()->toBool();
+      });
 
     if (empty($tag) === false) {
         $articles = $articles->filterBy('tags', $tag, ',');

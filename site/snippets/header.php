@@ -7,7 +7,14 @@
     <?= $site->title() ?> | <?= $page->title() ?>
   </title>
   <?php snippet('meta_information'); ?>
-  <?php snippet('robots'); ?>
+
+  <?php
+    if ($page->content()->visibility()->toBool() == false):
+      snippet('robots');
+    else:
+      print '<meta name="robots" content="noindex" />';
+    endif;
+  ?>
   <link rel="shortcut icon" type="image/x-icon" href="<?= url('favicon.svg') ?>">
   <link rel="mask-icon" href="<?= url('favicon.svg') ?>" color="#244130">
   <?= css('assets/css/style.css') ?>

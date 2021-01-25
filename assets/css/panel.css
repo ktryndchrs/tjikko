@@ -1,3 +1,16 @@
 .k-line-field{
   height: 1.5rem;
 }
+
+.k-field-name-visibility input:checked{
+  border-color: green;
+  background-color: green;
+}
+
+.k-field-name-visibility input:checked + .k-toggle-input-label{
+  color: green
+}
+
+.k-field-name-visibility input + .k-toggle-input-label{
+  color: rgba(0,0,0,.5)
+}

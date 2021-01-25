@@ -44,6 +44,13 @@ tabs:
           meta:
             type: fields
             fields:
+              visibility:
+                label: Visibility 
+                type: toggle
+                default: false
+                text:
+                    - Hidden
+                    - Visible
               date:
                 type: date
                 time: false
