@@ -22,11 +22,22 @@ Phone: (514) 463-0833
 
 ----
 
-Footer:
+Footerl:
 
-Site éco-conçu à Mtl (Poids moyen/p: 75kb)
-Bâti avec (link: https://getkirby.com text: Kirby target: blank) & (link: https://tailwindcss.com text: Tailwindcss target: blank) / (link: https://github.com/ktryndchrs/tjikko text: Code source du site target: blank)
+Built with (link: https://getkirby.com text: Kirby target: blank) & (link: https://tailwindcss.com text: Tailwindcss target: blank)
+(link: https://github.com/ktryndchrs/tjikko text: Website Source Code target: blank)
+
+----
+
+Footerr: Eco-designed in Montreal (Average size/p: 75kb)
 
 ----
 
 Social: 
+
+----
+
+Footer:
+
+Site éco-conçu à Mtl (Poids moyen/p: 75kb)
+Bâti avec (link: https://getkirby.com text: Kirby target: blank) & (link: https://tailwindcss.com text: Tailwindcss target: blank) / (link: https://github.com/ktryndchrs/tjikko text: Code source du site target: blank)

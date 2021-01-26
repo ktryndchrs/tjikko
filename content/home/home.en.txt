@@ -2,7 +2,7 @@ Title: Home
 
 ----
 
-Text: [{"content":{"text":"<p>Le Studio Tjikko r\u00e9alise des projets num\u00e9riques responsables en priorisant les projets qui auront un impact positif sur l\u2019environnement et la soci\u00e9t\u00e9.<\/p><p>Nous croyons qu\u2019il est possible d\u2019offrir des solutions innovantes \u00e0 la fois \u00e9l\u00e9gantes et performantes tout en permettant d\u2019ouvrir la voie vers une soci\u00e9t\u00e9 r\u00e9siliente, juste et en harmonie avec la nature.<\/p><p>Notre offre de service couvre l\u2019ensemble des besoins num\u00e9riques allant du d\u00e9veloppement strat\u00e9gique de produit et d\u2019innovation num\u00e9rique, du design UX\/UI, du d\u00e9veloppement web et mobile et des sciences des donn\u00e9es et de l\u2019intelligence artificielle.<\/p>"},"id":"b9bc0834-90e7-49c7-9f49-b9ffcfaf6c24","isHidden":false,"type":"text"}]
+Text: [{"content":{"text":"<p>At Tjikko Studio, we build beautiful web experiences, prioritising projects with a positive environmental and societal impact.<\/p><p>We believe it's possible to offer innovative, elegant, and effective solutions that pave the way toward a resilient and just society in harmony with nature.<\/p><p>Our consulting service covers a range of digital technology needs, from strategic and product development to UX\/UI design, data science and artificial intelligence, for web and mobile products alike.<\/p>"},"id":"b9bc0834-90e7-49c7-9f49-b9ffcfaf6c24","isHidden":false,"type":"text"}]
 
 ----
 
@@ -12,5 +12,139 @@ Headline: Design for <span class="text-primary-400">sobriety</span>
 
 Subtitle:
 
-Reduce our digital footprint,<br />
-simplify access to digital_
+Reducing the digital footprint<br />
+Simplifying access
+
+----
+
+Meta-title: Tjikko Studio
+
+----
+
+Meta-description: We build beautiful web experiences that minimise environmental impact and user wait times.
+
+----
+
+Meta-keywords: web design, eco-conscious, minimalist, digital sobriety, low footprint, mobile, lean ICT, environmental impact, design, website
+
+----
+
+Meta-canonical-url: https://tjikko.studio/en
+
+----
+
+Meta-author: Nicolas Benjamin
+
+----
+
+Meta-image: 
+
+----
+
+Meta-phone-number: 
+
+----
+
+Og-title: Tjikko Studio
+
+----
+
+Og-description: We build beautiful web experiences that minimise environmental impact and user wait times.
+
+----
+
+Og-image: 
+
+----
+
+Og-site-name: Tjikko Studio
+
+----
+
+Og-url: https://tjikko.studio/en
+
+----
+
+Og-audio: 
+
+----
+
+Og-video: 
+
+----
+
+Og-determiner: 
+
+----
+
+Og-type: website
+
+----
+
+Og-type-article-published-time: 
+
+----
+
+Og-type-article-modified-time: 
+
+----
+
+Og-type-article-expiration-time: 
+
+----
+
+Og-type-article-author: 
+
+----
+
+Og-type-article-section: 
+
+----
+
+Og-type-article-tag: 
+
+----
+
+Twitter-title: Tjikko Studio
+
+----
+
+Twitter-description: We build beautiful web experiences that minimise environmental impact and user wait times.
+
+----
+
+Twitter-image:
+
+- presentation-de-tjikko-1408x.gif
+
+----
+
+Twitter-card-type: summary_large_image
+
+----
+
+Twitter-site: @aletheic
+
+----
+
+Twitter-creator: @aletheic
+
+----
+
+Robots-noindex: 
+
+----
+
+Robots-nofollow: 
+
+----
+
+Robots-noarchive: 
+
+----
+
+Robots-noimageindex: 
+
+----
+
+Robots-nosnippet: 

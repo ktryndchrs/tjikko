@@ -1,4 +1,4 @@
-Title: Tjikko
+Title: Tjikko Studio
 
 ----
 
@@ -22,9 +22,7 @@ Meta-author:
 
 ----
 
-Meta-image:
-
-- tjikko-twitter-post@2x.png
+Meta-image: - tjikko-twitter-post@2x.png
 
 ----
 
@@ -40,9 +38,7 @@ Og-description: Nous réalisons des projets numériques responsables en priorisa
 
 ----
 
-Og-image:
-
-- tjikko-facebook-post@2x.png
+Og-image: - tjikko-facebook-post@2x.png
 
 ----
 
@@ -102,9 +98,7 @@ Twitter-description: Nous réalisons des projets numériques responsables en pri
 
 ----
 
-Twitter-image:
-
-- tjikko-twitter-post@2x.png
+Twitter-image: - tjikko-twitter-post@2x.png
 
 ----
 

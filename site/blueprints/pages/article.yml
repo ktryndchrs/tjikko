@@ -45,7 +45,7 @@ tabs:
             type: fields
             fields:
               visibility:
-                label: Visibility 
+                label: Translation Visibility (bypass system default)
                 type: toggle
                 default: false
                 text:

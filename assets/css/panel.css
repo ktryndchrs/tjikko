@@ -3,12 +3,12 @@
 }
 
 .k-field-name-visibility input:checked{
-  border-color: green;
-  background-color: green;
+  border-color: var(--color-positive);
+  background-color: var(--color-positive);
 }
 
 .k-field-name-visibility input:checked + .k-toggle-input-label{
-  color: green
+  color: var(--color-positive)
 }
 
 .k-field-name-visibility input + .k-toggle-input-label{

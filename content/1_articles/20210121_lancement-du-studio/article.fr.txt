@@ -176,7 +176,3 @@ Tags: sobriété numérique, technologie, internet, ux, ui, environnement, durab
 ----
 
 Herobackground: 
-
-----
-
-Hide: 
