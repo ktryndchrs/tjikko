@@ -69,7 +69,15 @@
               </li>
             <?php endforeach ?>
           </ul>
-          <?= safeContact( $pages->find('a-propos')->Email(), "mailto", "Nous contacter", 'class="btn btn-secondary"' ) ?>
+          <?= safeContact( $pages->find('a-propos')->Email(), "mailto", t('contact button') , 'class="btn btn-secondary"' ) ?>
+          
+          <?php foreach($kirby->languages() as $language):
+            if ($kirby->language() != $language):?>
+            <a href="<?= $page->url($language->code()) ?>" hreflang="<?php echo $language->code() ?>">
+              <?= html($language->code()) ?>
+            </a>
+            <?php endif;
+          endforeach; ?>
         </div>
         
         <footer class="app-container text-sm leading-6 text-gray-500 flex flex-col items-center sm:hidden">

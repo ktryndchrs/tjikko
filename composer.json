@@ -20,7 +20,8 @@
     "require": {
         "php": ">=7.1.0",
         "getkirby/cms": "^3.0",
-        "diesdasdigital/kirby-meta-knight": "^1.0"
+        "diesdasdigital/kirby-meta-knight": "^1.0",
+        "rasteiner/k3-trevor-view": "^0.1.1"
     },
     "config": {
         "optimize-autoloader": true

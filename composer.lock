@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "423a03c8caa90b32ac1147973480b824",
+    "content-hash": "98fc37e5d12a85209d37ec081dc4004b",
     "packages": [
         {
             "name": "claviska/simpleimage",
@@ -691,6 +691,41 @@
                 "source": "https://github.com/php-fig/log/tree/1.1.3"
             },
             "time": "2020-03-23T09:12:05+00:00"
+        },
+        {
+            "name": "rasteiner/k3-trevor-view",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rasteiner-dist/k3-trevor-view.git",
+                "reference": "b9118d8f08092892c19ef68b3ffb516e37488fad"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rasteiner-dist/k3-trevor-view/zipball/b9118d8f08092892c19ef68b3ffb516e37488fad",
+                "reference": "b9118d8f08092892c19ef68b3ffb516e37488fad",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.1"
+            },
+            "type": "kirby-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Roman Steiner",
+                    "email": "roman@toastlab.ch"
+                }
+            ],
+            "description": "Kirby 3 Plugin to edit your language translation variables from the Panel",
+            "support": {
+                "issues": "https://github.com/rasteiner-dist/k3-trevor-view/issues",
+                "source": "https://github.com/rasteiner-dist/k3-trevor-view/tree/master"
+            },
+            "time": "2019-11-02T16:36:09+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
