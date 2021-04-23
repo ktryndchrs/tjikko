@@ -12,8 +12,8 @@ Headline: Design pour la <span class="text-primary-400">sobriété</span>
 
 Subtitle:
 
-Diminuer notre empreinte numérique,<br/>
-faciliter l’accès à l'information
+Diminuer notre empreinte numérique<br/>
+Faciliter l’accès à l'information
 
 ----
 

@@ -2,7 +2,7 @@ Title: Home
 
 ----
 
-Text: [{"content":{"text":"<p>At Tjikko Studio, we build beautiful web experiences, prioritising projects with a positive environmental and societal impact.<\/p><p>We believe it's possible to offer innovative, elegant, and effective solutions that pave the way toward a resilient and just society in harmony with nature.<\/p><p>Our consulting service covers a range of digital technology needs, from strategic and product development to UX\/UI design, data science and artificial intelligence, for web and mobile products alike.<\/p>"},"id":"b9bc0834-90e7-49c7-9f49-b9ffcfaf6c24","isHidden":false,"type":"text"}]
+Text: [{"content":{"text":"<p>At Tjikko Studio, we build beautiful web projects that have a positive environmental and social impact.<\/p><p>We believe it's possible to offer innovative, elegant, and effective solutions that pave the way toward a resilient and just society in harmony with nature.<\/p><p>Our consulting services cover a range of digital technology needs, from strategic and product development to UX\/UI design, data science and artificial intelligence, for web and mobile products alike.<\/p>"},"id":"b9bc0834-90e7-49c7-9f49-b9ffcfaf6c24","isHidden":false,"type":"text"}]
 
 ----
 
@@ -12,8 +12,8 @@ Headline: Design for <span class="text-primary-400">sobriety</span>
 
 Subtitle:
 
-Reducing the digital footprint<br />
-Simplifying access
+Reduce our digital footprint<br />
+Facilitate access to information
 
 ----
 

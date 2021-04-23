@@ -2,7 +2,7 @@ Title: Articles
 
 ----
 
-Idees: <ul><li><p>Paramètres de streaming video</p></li><li><p>Proposer un Awwwards pour les sites sobres?</p></li><li><p>Optimisation/compression des images, polices de caractère et du code</p></li><li><p>Outils de compression rapide des images ( sur Mac)</p></li></ul>
+Idees: <ul><li><p>Paramètres de streaming video</p></li><li><p>Recherche et proposition d'un Awwwards pour les sites sobres?</p></li><li><p>La base pour créer un site sobre à travers l'optimisation/compression des images, polices de caractère et du code</p></li><li><p>Outils de compression rapide des images ( sur Mac)</p></li><li><p>Dear figma... votre outil est pas sobre</p></li><li><p>Le design sobre</p></li></ul>
 
 ----
 

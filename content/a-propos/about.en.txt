@@ -22,18 +22,29 @@ Phone: (514) 463-0833
 
 ----
 
-Footerl:
+Footerr:
 
-Built with (link: https://getkirby.com text: Kirby target: blank) & (link: https://tailwindcss.com text: Tailwindcss target: blank)
-(link: https://github.com/ktryndchrs/tjikko text: Website Source Code target: blank)
-
-----
-
-Footerr: Eco-designed in Montreal (Average size/p: 75kb)
+Eco-designed in Montreal (Average size/p: 75kb)
+With (link: https://getkirby.com text: Kirby target: blank) & (link: https://tailwindcss.com text: Tailwindcss target: blank)
 
 ----
 
 Social: 
+
+- 
+  platform: twitter
+  url: https://twitter.com/TjikkoStudio
+- 
+  platform: linkedin
+  url: >
+    https://www.linkedin.com/company/tjikko-studio
+- 
+  platform: facebook
+  url: https://www.facebook.com/TjikkoStudio
+
+----
+
+Footerl: 
 
 ----
 

@@ -35,13 +35,13 @@ columns:
       phone:
         label: Phone
         type: tel
-      footerL:
-        label: Footer left
-        type: textarea
-        buttons: 
-          - bold
-          - italic
-          - link
+      # footerL:
+      #   label: Footer left
+      #   type: textarea
+      #   buttons: 
+      #     - bold
+      #     - italic
+      #     - link
       footerR:
         label: Footer right
         type: textarea

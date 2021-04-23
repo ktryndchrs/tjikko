@@ -10,7 +10,7 @@ Meta-description: Nous réalisons des projets numériques responsables en priori
 
 ----
 
-Meta-keywords: Tjikko Studio, Tjikko, Studio, ui, ux, environnement, design numérique, sobriété numérique, design d'interface, recherche et développement, science des données, intelligence artificielle, gestion de projet, développement des affaires, développement
+Meta-keywords: Tjikko Studio, Tjikko design, Tjikko, Studio, ui, ux, environnement, design numérique, sobriété numérique, design d'interface, recherche et développement, science des données, intelligence artificielle, gestion de projet, développement des affaires, développement
 
 ----
 
@@ -22,7 +22,9 @@ Meta-author:
 
 ----
 
-Meta-image: - tjikko-twitter-post@2x.png
+Meta-image:
+
+- tjikko-twitter-post@2x.png
 
 ----
 
@@ -38,7 +40,9 @@ Og-description: Nous réalisons des projets numériques responsables en priorisa
 
 ----
 
-Og-image: - tjikko-facebook-post@2x.png
+Og-image:
+
+- tjikko-facebook-post@2x.png
 
 ----
 
@@ -98,7 +102,9 @@ Twitter-description: Nous réalisons des projets numériques responsables en pri
 
 ----
 
-Twitter-image: - tjikko-twitter-post@2x.png
+Twitter-image:
+
+- tjikko-twitter-post@2x.png
 
 ----
 

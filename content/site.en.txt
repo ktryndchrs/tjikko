@@ -6,15 +6,15 @@ Meta-title: Tjikko Studio
 
 ----
 
-Meta-description: Nous réalisons des projets numériques responsables en priorisant ceux qui auront un impact positif sur l’environnement et la société.
+Meta-description: We carry out responsible digital projects by prioritizing those that will have a positive impact on the environment and society.
 
 ----
 
-Meta-keywords: Tjikko Studio, Tjikko, Studio, ui, ux, environnement, design numérique, sobriété numérique, design d'interface, recherche et développement, science des données, intelligence artificielle, gestion de projet, développement des affaires, développement
+Meta-keywords: Tjikko Studio, Tjikko Design, Tjikko, Studio, ui, ux, Environment, Digital design, Digital Sobriety, Interface design, Research and development, Data science, science des données, Artificial intelligence, Project management, Business development, Web development
 
 ----
 
-Meta-canonical-url: 
+Meta-canonical-url: https://tjikko.studio/en
 
 ----
 
@@ -22,7 +22,9 @@ Meta-author:
 
 ----
 
-Meta-image: - tjikko-twitter-post@2x.png
+Meta-image:
+
+- tjikko-twitter-post@2x.png
 
 ----
 
@@ -34,11 +36,13 @@ Og-title: Tjikko Studio
 
 ----
 
-Og-description: Nous réalisons des projets numériques responsables en priorisant ceux qui auront un impact positif sur l’environnement et la société.
+Og-description: We carry out responsible digital projects by prioritizing those that will have a positive impact on the environment and society.
 
 ----
 
-Og-image: - tjikko-facebook-post@2x.png
+Og-image:
+
+- tjikko-facebook-post@2x.png
 
 ----
 
@@ -94,11 +98,13 @@ Twitter-title: Tjikko Studio
 
 ----
 
-Twitter-description: Nous réalisons des projets numériques responsables en priorisant ceux qui auront un impact positif sur l’environnement et la société.
+Twitter-description: We carry out responsible digital projects by prioritizing those that will have a positive impact on the environment and society.
 
 ----
 
-Twitter-image: - tjikko-twitter-post@2x.png
+Twitter-image:
+
+- tjikko-twitter-post@2x.png
 
 ----
 

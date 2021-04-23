@@ -121,6 +121,13 @@ strong {
   @apply border-primary-800;
 }
 
+a{
+  &:hover time,
+  &:hover{
+    @apply text-primary-700;
+  }
+}
+
 /*
   Formatage des articles
 */
@@ -165,7 +172,6 @@ strong {
 
   a{
     @apply text-primary-500 underline;
-    font-weight: 450;
 
     figcaption &{
       @apply font-normal;
