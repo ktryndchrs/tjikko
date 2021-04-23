@@ -1,6 +1,6 @@
 <?php
 
-Kirby::plugin('diesdasdigital/kirby-meta-knight', [
+Kirby::plugin('diesdasdigital/meta-knight', [
     'sections' => [
         'google_search_preview' => require_once __DIR__ . '/sections/google_search_preview.php',
         'facebook_sharing_preview' => require_once __DIR__ . '/sections/facebook_sharing_preview.php',
@@ -13,6 +13,7 @@ Kirby::plugin('diesdasdigital/kirby-meta-knight', [
         'fields/twitter' => __DIR__ . '/blueprints/fields/twitter.yml',
         'fields/robots' => __DIR__ . '/blueprints/fields/robots.yml',
         'fields/profile' => __DIR__ . '/blueprints/fields/profile.yml',
+        'files/seo-image' => __DIR__ . '/blueprints/files/seo-image.yml',
     ],
     'snippets' => [
         'meta_information' => __DIR__ . '/snippets/meta_information.php',
@@ -23,5 +24,9 @@ Kirby::plugin('diesdasdigital/kirby-meta-knight', [
             'metaknight.meta_description_missing' => 'Description Missing.',
             'metaknight.meta_keywords_missing' => 'Keywords Missing.',
         ],
+    ],
+    'options' => [
+      'siteTitleAfterPageTitle' => true,
+      'siteTitleAsHomePageTitle' => false
     ]
 ]);
