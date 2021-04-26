@@ -19,10 +19,10 @@
         $lancementStudio = $pages->get('articles')->children()->first();
         $lang = $kirby->language()->code();
         if ($lang === "fr"):
-          $articleText = " sur notre article de lancement";
+          $articleText = " avec notre article de lancement";
           $articleLink = "En savoir plus sur la sobriété numérique";
         elseif ($lang ==="en"):
-          $articleText = " on our launch article";
+          $articleText = " with our launch article";
           $articleLink = "Learn more about digital sobriety";
         endif;
       ?>
