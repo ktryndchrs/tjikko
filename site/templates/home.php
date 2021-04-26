@@ -14,6 +14,23 @@
   <main>
     <div class="app-container">
       <?= $page->text()->toBlocks() ?>
+      <?php 
+        // $lancementStudio = $pages->children()->find('lancement-du-studio');
+        $lancementStudio = $pages->get('articles')->children()->first();
+        $lang = $kirby->language()->code();
+        if ($lang === "fr"):
+          $articleText = " sur notre article de lancement: ";
+          $articleLink = "En savoir plus sur la sobriété numérique";
+        elseif ($lang ==="en"):
+          $articleText = " on our launch article: ";
+          $articleLink = "Learn more about digital sobriety";
+        endif;
+      ?>
+      <br />
+      <a href="<?= $lancementStudio->url() ?>" target="_blank" aria-label="" class="text-primary-400">
+         <?= $articleLink //$lancementStudio->title() ?>
+      </a>
+      <?= $articleText?>
     </div>
 
     <div class="app-container grid xs:grid-cols-2 sm:grid-cols-4 gap-4 xs:gap-8 sm:gap-6 lg:gap-4 xl:gap-2">
