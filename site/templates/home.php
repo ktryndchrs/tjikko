@@ -26,9 +26,8 @@
           $articleLink = "Learn more about digital sobriety";
         endif;
       ?>
-      <br />
-      <a href="<?= $lancementStudio->url() ?>" target="_blank" aria-label="" class="text-primary-400 underline"><?= $articleLink //$lancementStudio->title() ?></a>
-      <?= $articleText?>
+      <p><a href="<?= $lancementStudio->url() ?>" target="_blank" aria-label="" class="text-primary-400 underline font-normal"><?= $articleLink //$lancementStudio->title() ?></a>
+      <?= $articleText?></p>
     </div>
 
     <div class="app-container grid xs:grid-cols-2 sm:grid-cols-4 gap-4 xs:gap-8 sm:gap-6 lg:gap-4 xl:gap-2">
