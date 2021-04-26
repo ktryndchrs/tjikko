@@ -19,17 +19,15 @@
         $lancementStudio = $pages->get('articles')->children()->first();
         $lang = $kirby->language()->code();
         if ($lang === "fr"):
-          $articleText = " sur notre article de lancement: ";
+          $articleText = " sur notre article de lancement";
           $articleLink = "En savoir plus sur la sobriété numérique";
         elseif ($lang ==="en"):
-          $articleText = " on our launch article: ";
+          $articleText = " on our launch article";
           $articleLink = "Learn more about digital sobriety";
         endif;
       ?>
       <br />
-      <a href="<?= $lancementStudio->url() ?>" target="_blank" aria-label="" class="text-primary-400">
-         <?= $articleLink //$lancementStudio->title() ?>
-      </a>
+      <a href="<?= $lancementStudio->url() ?>" target="_blank" aria-label="" class="text-primary-400 underline"><?= $articleLink //$lancementStudio->title() ?></a>
       <?= $articleText?>
     </div>
 
